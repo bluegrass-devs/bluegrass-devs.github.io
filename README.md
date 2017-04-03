@@ -1,2 +1,3 @@
-# bluegrass-devs.github.io
+# bluegrassdevs.org
+
 The Bluegrass Developers Guild website
