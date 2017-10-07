@@ -118,7 +118,7 @@
                 <p>If you are interested in being a part of our community, email us with a user name of your choice and we will send you an invite to the Slack space.</p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://bluegrass-devs.slack.com/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-slack fa-fw"></i> <span class="network-name">Slack</span></a>
+                        <a href="#portfolioModal2" target="_blank" class="btn btn-default btn-lg portfolio-link" data-toggle="modal"><i class="fa fa-slack fa-fw"></i> <span class="network-name">Slack</span></a>
                     </li>
                     <li>
                         <a href="https://github.com/bluegrass-devs" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -210,5 +210,47 @@
     </div>
 </div>
 
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div id="wufoo-z6a7uoq0rt7b3t">
+                                Fill out my <a href="https://bluegrassdevs.wufoo.com/forms/z6a7uoq0rt7b3t">online form</a>.
+                            </div>
+                            <script type="text/javascript">var z6a7uoq0rt7b3t;(function(d, t) {
+                                var s = d.createElement(t), options = {
+                                    'userName':'bluegrassdevs',
+                                    'formHash':'z6a7uoq0rt7b3t',
+                                    'autoResize':true,
+                                    'height':'259',
+                                    'async':true,
+                                    'host':'wufoo.com',
+                                    'header':'show',
+                                    'ssl':true};
+                                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                                    s.onload = s.onreadystatechange = function() {
+                                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                                        try { z6a7uoq0rt7b3t = new WufooForm();z6a7uoq0rt7b3t.initialize(options);z6a7uoq0rt7b3t.display(); } catch (e) {}};
+                                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                                    })(document, 'script');
+                            </script>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </html>
