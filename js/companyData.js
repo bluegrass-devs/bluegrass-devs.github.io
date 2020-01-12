@@ -2,10 +2,15 @@ var companyData = [
   {
     "name": "Oracle Cloud Infrastructure",
     "url":"https://www.oracle.com/cloud/",
-    "location": "remote"
+    "location": "local"
   },
   {
-    "name": "Digital Ocean",
+    "name": "Seikowave",
+    "url":"https://www.seikowave.com/",
+    "location": "local"
+  },
+  {
+    "name": "DigitalOcean, Inc.",
     "url":"https://www.digitalocean.com/",
     "location": "remote"
   },
@@ -18,5 +23,10 @@ var companyData = [
     "name": "Awesome Inc",
     "url":"https://www.awesomeinc.org/",
     "location": "local"
-  }
+  },
+  {
+    "name": "Booz Allen Hamilton",
+    "url":"http://www.bah.com",
+    "location": "remote"
+  },
 ]
