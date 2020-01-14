@@ -1,6 +1,6 @@
 var companyData = [
   {
-    "name": "Oracle Cloud Infrastructure",
+    "name": "Oracle - Cloud Infrastructure",
     "url":"https://www.oracle.com/cloud/",
     "location": "local"
   },
