@@ -129,4 +129,9 @@ var companyData = [
     "url": "https://www.blueframetech.com/",
     "location": "local"
   },
+  {
+    "name": "Xometry",
+    "url": "https://www.xometry.com/",
+    "location": "local"
+  },
 ]
