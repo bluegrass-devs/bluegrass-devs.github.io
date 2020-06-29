@@ -134,4 +134,9 @@ var companyData = [
     "url": "https://www.xometry.com/",
     "location": "local"
   },
+  {
+    "name": "Vendorful",
+    "url": "https://vendorful.com/",
+    "location": "remote"
+  }
 ]
