@@ -138,10 +138,10 @@ var companyData = [
     "name": "Vendorful",
     "url": "https://vendorful.com/",
     "location": "remote"
-  }
-    {
+  },
+  {
     "name": "Bitwerx",
     "url": "https://www.bitwerx.com/",
     "location": "local"
-  },
+  }
 ]
