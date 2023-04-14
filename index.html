@@ -29,7 +29,7 @@
         new JotformFeedback({
             type: 2,
             width: 700,
-            height: 650,
+            height: 620,
             fontColor: "#FFFFFF",
             background: "#F59202",
             isCardForm: false,
@@ -56,7 +56,6 @@
             ifr.src = src + "?" + iframeParams.join('&');
         }
         window.handleIFrameMessage = function(e) {
-            console.debug('event',e);
             if (typeof e.data === 'object') { return; }
             var args = e.data.split(":");
             if (args.length > 2) { iframe = document.getElementById("lightbox-" + args[(args.length - 1)]); } else { iframe = document.getElementById("lightbox"); }
@@ -66,8 +65,8 @@
                     iframe.scrollIntoView();
                     break;
                 case "setHeight":
-                    iframe.style.height = "650px";
-                    iframe.style.minHeight = "650px";
+                    iframe.style.height = "620px";
+                    iframe.style.minHeight = "620px";
                     break;
                 case "collapseErrorPage":
                     if (iframe.clientHeight > window.innerHeight) {
