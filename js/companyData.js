@@ -143,5 +143,10 @@ var companyData = [
     "name": "Bitwerx",
     "url": "https://www.bitwerx.com/",
     "location": "local"
+  },
+  {
+    "name": "Tiger Pistol",
+    "url": "https://www.tigerpistol.com/",
+    "location": "remote"
   }
 ]
